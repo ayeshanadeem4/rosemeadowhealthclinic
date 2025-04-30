@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthcare Centre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="logo.png" alt="HealthyLife Logo" class="logo" />
+    <h1>Rosemeadow Healthcare Clinic</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#bmi">BMI Calculator</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section id="about" class="section reveal">
+    <h2>About Us</h2>
+    <img src="pic.jpg" alt="pic" class="pic" />
+    <p>Are you tired of not finding a doctor on weekends? </p>
+    <p>Do you get frustated to wait for getting health care during holidays? </p>
+    <p>No more worries! Our clinical services are available 27/4 every day.</p>
+    <p>Agedly people and children below 2 are highly priortized.</p>
+    
+  </section>
+
+<section class="image-gallery">
+
+  <img src="p1.jpg" alt="p1" class="p1" />
+  <img src="p2.jpg" alt="p2" class="p2" />
+  <img src="p3.jpg" alt="p3" class="p3" />
+  <img src="p4.jpg" alt="p4" class="p4" />
+</section>
+
+
+  <section id="bmi" class="section reveal">
+    <h2>BMI Calculator</h2>
+    <div class="bmi-box">
+      <input type="number" id="weight" placeholder="Weight (kg)" />
+      <input type="number" id="height" placeholder="Height (cm)" />
+      <button onclick="calculateBMI()">Calculate</button>
+      <div id="bmi-result"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 HealthyLife Clinic. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
